@@ -18,7 +18,7 @@ ES-101 실습 장비에서 작성했던 실습 예제 코드
 
 ES-101 실습 장비가 아닌 우분투 환경에서 진행했던 실습 코드
 
-- [1. basic_module](linux-code/1.-basic_module)
+- [1. basic_module](linux-code)
   - 로그만 출력하는 간단한 모듈 프로그램
 - [2. driver_exam](linux-code/2.-driver_exam)
   - 각 함수 별로 로그를 출력하는 간단한 디바이스 드라이버
