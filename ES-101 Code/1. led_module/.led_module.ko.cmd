@@ -1,1 +1,0 @@
-cmd_/home/soda/led_module/led_module.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/led_module/led_module.ko /home/soda/led_module/led_module.o /home/soda/led_module/led_module.mod.o ;  true
