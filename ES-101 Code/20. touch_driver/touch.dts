@@ -1,0 +1,23 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2708";
+
+    fragment@0 {
+		target = <&i2c1>;
+		__overlay__ {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			status = "okay";
+
+			touch: touch{
+				compatible = "touch";
+				reg = <0x1b>;
+				AVDD-supply = <&vdd_5v0_reg>;
+				DVDD-supply = <&vdd_3v3_reg>;
+			};
+		};
+    };
+};
+

@@ -1,0 +1,1 @@
+cmd_/home/soda/led_kthread/led_kthread.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/led_kthread/led_kthread.ko /home/soda/led_kthread/led_kthread.o /home/soda/led_kthread/led_kthread.mod.o ;  true

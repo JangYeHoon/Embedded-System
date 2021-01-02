@@ -1,0 +1,21 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2708";
+    fragment@0 {
+        target-path = "/";
+        __overlay__ {
+            status = "okay";
+            piezo: piezo{
+                compatible = "piezo";
+                pwms = <&pwm 0 50000>;
+                status = "okay";
+		pwm_id = <0>;
+		pwm_period_ns = <30000>;
+		pwm_max = <255>;
+		pwm_default = <0>;
+            };
+        };
+    };
+};		

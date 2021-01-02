@@ -1,0 +1,1 @@
+cmd_/home/soda/switch_interrupt/switch_interrupt.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/switch_interrupt/switch_interrupt.ko /home/soda/switch_interrupt/switch_interrupt.o /home/soda/switch_interrupt/switch_interrupt.mod.o ;  true

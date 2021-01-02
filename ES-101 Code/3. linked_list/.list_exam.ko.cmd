@@ -1,0 +1,1 @@
+cmd_/home/soda/linked_list/list_exam.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/linked_list/list_exam.ko /home/soda/linked_list/list_exam.o /home/soda/linked_list/list_exam.mod.o ;  true

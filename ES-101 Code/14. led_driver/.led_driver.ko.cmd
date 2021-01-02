@@ -1,0 +1,1 @@
+cmd_/home/soda/led_driver/led_driver.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/led_driver/led_driver.ko /home/soda/led_driver/led_driver.o /home/soda/led_driver/led_driver.mod.o ;  true

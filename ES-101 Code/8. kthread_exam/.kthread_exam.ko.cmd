@@ -1,0 +1,1 @@
+cmd_/home/soda/kthread_exam/kthread_exam.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/kthread_exam/kthread_exam.ko /home/soda/kthread_exam/kthread_exam.o /home/soda/kthread_exam/kthread_exam.mod.o ;  true

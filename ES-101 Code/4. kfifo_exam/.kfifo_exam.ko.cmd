@@ -1,0 +1,1 @@
+cmd_/home/soda/kfifo_exam/kfifo_exam.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/kfifo_exam/kfifo_exam.ko /home/soda/kfifo_exam/kfifo_exam.o /home/soda/kfifo_exam/kfifo_exam.mod.o ;  true

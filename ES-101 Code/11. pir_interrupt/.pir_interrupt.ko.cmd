@@ -1,0 +1,1 @@
+cmd_/home/soda/pir_interrupt/pir_interrupt.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/pir_interrupt/pir_interrupt.ko /home/soda/pir_interrupt/pir_interrupt.o /home/soda/pir_interrupt/pir_interrupt.mod.o ;  true

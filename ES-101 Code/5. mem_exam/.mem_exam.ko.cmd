@@ -1,0 +1,1 @@
+cmd_/home/soda/mem_exam/mem_exam.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/mem_exam/mem_exam.ko /home/soda/mem_exam/mem_exam.o /home/soda/mem_exam/mem_exam.mod.o ;  true
