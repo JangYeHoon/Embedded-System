@@ -1,1 +1,0 @@
-cmd_/home/soda/led_timer/led_timer.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/led_timer/led_timer.ko /home/soda/led_timer/led_timer.o /home/soda/led_timer/led_timer.mod.o ;  true

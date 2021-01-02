@@ -1,1 +1,0 @@
-cmd_/home/soda/simple_buffer/simple_buffer.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/simple_buffer/simple_buffer.ko /home/soda/simple_buffer/simple_buffer.o /home/soda/simple_buffer/simple_buffer.mod.o ;  true

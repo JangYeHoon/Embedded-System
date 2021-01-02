@@ -1,1 +1,0 @@
-cmd_/home/soda/led_misc_driver_2/led_misc_driver_2.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/led_misc_driver_2/led_misc_driver_2.ko /home/soda/led_misc_driver_2/led_misc_driver_2.o /home/soda/led_misc_driver_2/led_misc_driver_2.mod.o ;  true

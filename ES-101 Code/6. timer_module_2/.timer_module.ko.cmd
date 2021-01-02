@@ -1,1 +1,0 @@
-cmd_/home/soda/timer_module_2/timer_module.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/timer_module_2/timer_module.ko /home/soda/timer_module_2/timer_module.o /home/soda/timer_module_2/timer_module.mod.o ;  true

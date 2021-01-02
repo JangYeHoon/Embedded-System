@@ -1,1 +1,0 @@
-cmd_/home/soda/misc_driver/misc_driver.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/soda/misc_driver/misc_driver.ko /home/soda/misc_driver/misc_driver.o /home/soda/misc_driver/misc_driver.mod.o ;  true
